@@ -20,19 +20,19 @@ loadingManager.onLoad = () => {
     document.querySelector("#loadingScreen").classList.add("hidden")
     document.getElementById("canvasHolder").appendChild(renderer.domElement);
     gsap.to(camera.position, {
-        x: 10,
-        y: 80,
-        z: 0,
-        duration: 2,
+        x: 234,
+        y: -143,
+        z: -24.5,
+        duration: 3,
         ease: "expo.inOut",
         onStart: () => controls.enabled = false,
         onComplete: () => controls.enabled = true,
     },)
     gsap.to(controls.target, {
-        x: 0,
-        y: 13,
-        z: 0,
-        duration: 2,
+        x: 106,
+        y: -133,
+        z: 47,
+        duration: 3,
         ease: "expo.inOut",
         onStart: () => controls.enabled = false,
         onComplete: () => controls.enabled = true,
@@ -92,11 +92,10 @@ controls.maxDistance = 2400;
 controls.rotateSpeed = 0.5;
 controls.update()
 
-loader.load("chocolate_milka.glb", function (gltf) {
+loader.load("scene.gltf", function (gltf) {
     var mesh = gltf.scene;
-    mesh.scale.set(450, 450, 450)
-    mesh.name = "Sketchfab_Scene"
-    mesh.position.set(-15, 0, 0);
+    mesh.scale.set(40, 40, 40)
+    mesh.position.set(0, 30, 0);
     mixer = new T.AnimationMixer(mesh);
     gltf.animations.forEach((clip) => {
         mixer.clipAction(clip).play();

@@ -1,0 +1,478 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        105.02039337158203,
+        101.30883026123047,
+        -6.145350653241621e-06
+      ],
+      "min": [
+        -108.51478576660156,
+        -284.7336730957031,
+        -22.227508544921875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999995231628418,
+        0.9999999403953552,
+        1.0
+      ],
+      "min": [
+        -0.9999995231628418,
+        -0.9999909400939941,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9842406511306763,
+        0.9998859763145447
+      ],
+      "min": [
+        0.06865251064300537,
+        0.00011401921801734716
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 368109,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 6419,
+      "max": [
+        104.96729278564453,
+        100.06265258789063,
+        -12.714679718017578
+      ],
+      "min": [
+        -108.50957489013672,
+        -283.6683044433594,
+        -22.199092864990234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1649796,
+      "componentType": 5126,
+      "count": 6419,
+      "max": [
+        0.9999119639396667,
+        0.5930970907211304,
+        1.0
+      ],
+      "min": [
+        -0.9912175536155701,
+        -0.6450660228729248,
+        -0.9999980926513672
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 6419,
+      "max": [
+        0.9774825572967529,
+        0.9938718676567078
+      ],
+      "min": [
+        0.06865252554416656,
+        0.003302152268588543
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1472436,
+      "componentType": 5125,
+      "count": 28179,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "0ussaMax (https://sketchfab.com/0ussaMax)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/raya-chocas-chocolate-black-36e1a2f66b2743548e3795c25fa3f11d",
+      "title": "RAYA Chocas Chocolate BLACK"
+    },
+    "generator": "Sketchfab-15.36.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1585152,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 575608,
+      "byteOffset": 1585152,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1726824,
+      "byteOffset": 2160760,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3887584,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "images": [
+    {
+      "uri": "textures/Material.001_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Material.001_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.005
+        }
+      },
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.5441216366192321,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.22967173896959087
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Facing_Material.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Facing_Material.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "e8baac1eaad84443bd2a087af2d08f88.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        -0.630908621867585,
+        -0.05048075425801654,
+        0.7742131517241789,
+        0.0,
+        -0.031889491529111635,
+        0.9987250339555568,
+        0.039132683021824294,
+        0.0,
+        -0.7752015035996508,
+        -1.1662835481401901e-07,
+        -0.6317140403828516,
+        0.0,
+        1013.9979858398438,
+        -351.4356689453125,
+        -724.6066284179688,
+        1.0
+      ],
+      "name": "Active Camera"
+    },
+    {
+      "name": "Object_4"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -0.17482107119742052,
+        -0.8245883705396151,
+        0.5380442474706041,
+        0.0,
+        -0.25481113130429467,
+        0.5657331695867883,
+        0.7842303667881725,
+        0.0,
+        -0.9510567177770272,
+        3.293977017260197e-07,
+        -0.30901637427663853,
+        0.0,
+        882.6220092773438,
+        2944.62841796875,
+        -1463.538330078125,
+        1.0
+      ],
+      "name": "Camera"
+    },
+    {
+      "name": "Object_6"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Default"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        344.1240234375,
+        399.9385986328125,
+        164.7216796875,
+        1.0
+      ],
+      "name": "Chocas"
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        -0.4719279920530491,
+        -5.77945104895804e-17,
+        -0.8816369615086542,
+        0.0,
+        -2.9594648333994206e-16,
+        1.2842999696731567,
+        7.42254969174118e-17,
+        0.0,
+        0.8816369615086542,
+        2.30434053607965e-16,
+        -0.4719279920530491,
+        0.0,
+        -93.80729675292969,
+        -332.87213134765625,
+        -41.81159973144531,
+        1.0
+      ],
+      "name": "Plane"
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        1.0,
+        1.232595164407831e-32,
+        0.0,
+        0.0,
+        -1.232595164407831e-32,
+        1.0,
+        -2.4651903288156624e-32,
+        0.0,
+        -3.038581678643136e-64,
+        2.4651903288156624e-32,
+        1.0,
+        0.0,
+        -2.842170943040401e-14,
+        -263.92230224609375,
+        5.684341886080802e-14,
+        1.0
+      ],
+      "name": "Plane"
+    },
+    {
+      "children": [
+        13,
+        14
+      ],
+      "matrix": [
+        1.0,
+        -6.162975822039155e-33,
+        0.0,
+        0.0,
+        6.162975822039155e-33,
+        1.0,
+        -1.8488927466117467e-32,
+        0.0,
+        1.139468129491176e-64,
+        1.8488927466117467e-32,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Facing"
+    },
+    {
+      "mesh": 0,
+      "name": "Facing_Material.001_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Facing_Material.001_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
