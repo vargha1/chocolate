@@ -90,7 +90,9 @@ controls.enablePan = false
 controls.minDistance = 0;
 controls.maxDistance = 2400;
 controls.rotateSpeed = 0.5;
-controls.update()
+controls.autoRotate = true;
+controls.autoRotateSpeed = 2.2;
+controls.update();
 
 loader.load("scene.gltf", function (gltf) {
     var mesh = gltf.scene;
