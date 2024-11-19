@@ -40,6 +40,9 @@ loadingManager.onLoad = () => {
             controls.update()
         }
     })
+    setTimeout(() => {
+        controls.autoRotate = false
+    }, 8000)
 }
 
 const scene = new T.Scene();
